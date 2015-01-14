@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84C64E491A662787005075A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C64E481A662787005075A6 /* AppDelegate.swift */; };
+		84C64E4B1A662787005075A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C64E4A1A662787005075A6 /* ViewController.swift */; };
+		84C64E4E1A662787005075A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C64E4C1A662787005075A6 /* Main.storyboard */; };
+		84C64E501A662787005075A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C64E4F1A662787005075A6 /* Images.xcassets */; };
+		84C64E531A662787005075A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C64E511A662787005075A6 /* LaunchScreen.xib */; };
+		84C64E5F1A662787005075A6 /* ZLTableViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C64E5E1A662787005075A6 /* ZLTableViewTestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84C64E591A662787005075A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C64E3B1A662787005075A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C64E421A662787005075A6;
+			remoteInfo = ZLTableViewTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84C64E431A662787005075A6 /* ZLTableViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLTableViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C64E471A662787005075A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C64E481A662787005075A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84C64E4A1A662787005075A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84C64E4D1A662787005075A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84C64E4F1A662787005075A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84C64E521A662787005075A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84C64E581A662787005075A6 /* ZLTableViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLTableViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C64E5D1A662787005075A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C64E5E1A662787005075A6 /* ZLTableViewTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLTableViewTestTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C64E401A662787005075A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C64E551A662787005075A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C64E3A1A662787005075A6 = {
+			isa = PBXGroup;
+			children = (
+				84C64E451A662787005075A6 /* ZLTableViewTest */,
+				84C64E5B1A662787005075A6 /* ZLTableViewTestTests */,
+				84C64E441A662787005075A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C64E441A662787005075A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C64E431A662787005075A6 /* ZLTableViewTest.app */,
+				84C64E581A662787005075A6 /* ZLTableViewTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C64E451A662787005075A6 /* ZLTableViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				84C64E481A662787005075A6 /* AppDelegate.swift */,
+				84C64E4A1A662787005075A6 /* ViewController.swift */,
+				84C64E4C1A662787005075A6 /* Main.storyboard */,
+				84C64E4F1A662787005075A6 /* Images.xcassets */,
+				84C64E511A662787005075A6 /* LaunchScreen.xib */,
+				84C64E461A662787005075A6 /* Supporting Files */,
+			);
+			path = ZLTableViewTest;
+			sourceTree = "<group>";
+		};
+		84C64E461A662787005075A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C64E471A662787005075A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84C64E5B1A662787005075A6 /* ZLTableViewTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				84C64E5E1A662787005075A6 /* ZLTableViewTestTests.swift */,
+				84C64E5C1A662787005075A6 /* Supporting Files */,
+			);
+			path = ZLTableViewTestTests;
+			sourceTree = "<group>";
+		};
+		84C64E5C1A662787005075A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C64E5D1A662787005075A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C64E421A662787005075A6 /* ZLTableViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C64E621A662787005075A6 /* Build configuration list for PBXNativeTarget "ZLTableViewTest" */;
+			buildPhases = (
+				84C64E3F1A662787005075A6 /* Sources */,
+				84C64E401A662787005075A6 /* Frameworks */,
+				84C64E411A662787005075A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLTableViewTest;
+			productName = ZLTableViewTest;
+			productReference = 84C64E431A662787005075A6 /* ZLTableViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84C64E571A662787005075A6 /* ZLTableViewTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C64E651A662787005075A6 /* Build configuration list for PBXNativeTarget "ZLTableViewTestTests" */;
+			buildPhases = (
+				84C64E541A662787005075A6 /* Sources */,
+				84C64E551A662787005075A6 /* Frameworks */,
+				84C64E561A662787005075A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C64E5A1A662787005075A6 /* PBXTargetDependency */,
+			);
+			name = ZLTableViewTestTests;
+			productName = ZLTableViewTestTests;
+			productReference = 84C64E581A662787005075A6 /* ZLTableViewTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C64E3B1A662787005075A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "My Company";
+				TargetAttributes = {
+					84C64E421A662787005075A6 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					84C64E571A662787005075A6 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 84C64E421A662787005075A6;
+					};
+				};
+			};
+			buildConfigurationList = 84C64E3E1A662787005075A6 /* Build configuration list for PBXProject "ZLTableViewTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84C64E3A1A662787005075A6;
+			productRefGroup = 84C64E441A662787005075A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C64E421A662787005075A6 /* ZLTableViewTest */,
+				84C64E571A662787005075A6 /* ZLTableViewTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C64E411A662787005075A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C64E4E1A662787005075A6 /* Main.storyboard in Resources */,
+				84C64E531A662787005075A6 /* LaunchScreen.xib in Resources */,
+				84C64E501A662787005075A6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C64E561A662787005075A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C64E3F1A662787005075A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C64E4B1A662787005075A6 /* ViewController.swift in Sources */,
+				84C64E491A662787005075A6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C64E541A662787005075A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C64E5F1A662787005075A6 /* ZLTableViewTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84C64E5A1A662787005075A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84C64E421A662787005075A6 /* ZLTableViewTest */;
+			targetProxy = 84C64E591A662787005075A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84C64E4C1A662787005075A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C64E4D1A662787005075A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84C64E511A662787005075A6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C64E521A662787005075A6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C64E601A662787005075A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84C64E611A662787005075A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C64E631A662787005075A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZLTableViewTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84C64E641A662787005075A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZLTableViewTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84C64E661A662787005075A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZLTableViewTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLTableViewTest.app/ZLTableViewTest";
+			};
+			name = Debug;
+		};
+		84C64E671A662787005075A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZLTableViewTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLTableViewTest.app/ZLTableViewTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C64E3E1A662787005075A6 /* Build configuration list for PBXProject "ZLTableViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C64E601A662787005075A6 /* Debug */,
+				84C64E611A662787005075A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C64E621A662787005075A6 /* Build configuration list for PBXNativeTarget "ZLTableViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C64E631A662787005075A6 /* Debug */,
+				84C64E641A662787005075A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84C64E651A662787005075A6 /* Build configuration list for PBXNativeTarget "ZLTableViewTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C64E661A662787005075A6 /* Debug */,
+				84C64E671A662787005075A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C64E3B1A662787005075A6 /* Project object */;
+}
