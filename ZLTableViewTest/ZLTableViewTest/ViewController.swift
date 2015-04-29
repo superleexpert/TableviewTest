@@ -42,8 +42,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as UITableViewCell //as是类型转换，可理解为把什么当成什么的意思，这里Swift的用法和OC中的UICollectionView相似，初始化时调用registerClass
-        cell.textLabel.text = String(format: "%d", indexPath.row)
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as! UITableViewCell //as是类型转换，可理解为把什么当成什么的意思，这里Swift的用法和OC中的UICollectionView相似，初始化时调用registerClass
+        cell.textLabel?.text = String(format: "%d", indexPath.row)
         cell.contentView.backgroundColor = UIColor.blueColor()
         
         return cell
